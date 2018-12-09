@@ -59,5 +59,22 @@ while x < 2:
     k_space(0)
     x += 1
 x = 0
+# =====
 
-#----
+# Segunda fase
+while x < 40:
+    time.sleep(.1)
+    k_w(0)
+    x += 1
+x = 0
+
+#compra itens
+while x < 4:
+    time.sleep(.2)
+    k_space(0)
+    x += 1
+x = 0
+time.sleep(.5)
+k_space(0)
+time.sleep(1)
+k_space(0)
