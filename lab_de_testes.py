@@ -1,2 +1,3 @@
-import pyautogui
+from pyautogui import *
+import keyboard
 

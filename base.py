@@ -37,3 +37,5 @@ def k_d(delay):
     pyautogui.keyUp('d')
 # ----
 
+
+
