@@ -10,6 +10,7 @@ def alt_tab():
     pyautogui.keyUp('tab')
     pyautogui.keyUp('alt')
 
+#keys
 def k_space(delay):
     pyautogui.keyDown('space')
     time.sleep(delay)
@@ -34,4 +35,5 @@ def k_d(delay):
     pyautogui.keyDown('d')
     time.sleep(delay)
     pyautogui.keyUp('d')
+# ----
 
