@@ -7,12 +7,12 @@ from funcs import *
 alt_tab()
 time.sleep(1)
 
-#ready
+'''Ready'''
 k_space(0)
 time.sleep(1)
 k_space(0)
 
-#começa a putaria
+''' Fase 1'''
 
 # iiiiii
 time.sleep(0.8)
@@ -30,10 +30,10 @@ k_w(0.08)
 time.sleep(0.2)
 k_s(0.15)
 
-# ----====
+# +x=-
 time.sleep(1)
 k_w(.3)
-time.sleep(.3)
+time.sleep(.25)
 k_s(.25)
 time.sleep(.3)
 k_w(.3)
