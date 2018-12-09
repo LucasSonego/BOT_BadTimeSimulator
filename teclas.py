@@ -3,10 +3,14 @@
 
 import pyautogui
 from pyautogui import *
+
+#iniciador
 def init():
     pyautogui.click(1249,9)
     pyautogui.click(645,160)
+# ----
 
+#keys
 def k_space(delay):
     pyautogui.keyDown('space')
     time.sleep(delay)
@@ -31,4 +35,5 @@ def k_d(delay):
     pyautogui.keyDown('d')
     time.sleep(delay)
     pyautogui.keyUp('d')
+# ----
 
