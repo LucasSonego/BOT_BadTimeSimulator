@@ -37,3 +37,27 @@ time.sleep(.3)
 k_s(.25)
 time.sleep(.3)
 k_w(.3)
+# ---
+
+# compra item
+time.sleep(2.5)
+k_space(0)
+time.sleep(.1)
+k_d(0)
+time.sleep(.1)
+k_d(0)
+time.sleep(.1)
+k_d(0)
+x = 0
+while x < 4:
+    time.sleep(.1)
+    k_space(0)
+    x += 1
+x = 0
+while x < 2:
+    time.sleep(1)
+    k_space(0)
+    x += 1
+x = 0
+
+#----
