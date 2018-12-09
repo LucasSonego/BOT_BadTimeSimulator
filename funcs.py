@@ -3,9 +3,12 @@
 
 import pyautogui
 from pyautogui import *
-def init():
-    pyautogui.click(1249,9)
-    pyautogui.click(645,160)
+
+def alt_tab():
+    pyautogui.keyDown('alt')
+    pyautogui.keyDown('tab')
+    pyautogui.keyUp('tab')
+    pyautogui.keyUp('alt')
 
 def k_space(delay):
     pyautogui.keyDown('space')
