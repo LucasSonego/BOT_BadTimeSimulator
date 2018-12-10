@@ -4,7 +4,7 @@
 import pyautogui
 from pyautogui import *
 
-def alt_tab():
+def k_alt_tab():
     pyautogui.keyDown('alt')
     pyautogui.keyDown('tab')
     pyautogui.keyUp('tab')
