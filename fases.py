@@ -15,11 +15,8 @@ def start():
 
 ''' Fase 1'''
 def fase1():
-    # iiiiii
     time.sleep(0.8)
     k_w(0.75)
-
-    # ~~~~
     time.sleep(0.2)
     k_w(0.01)
     time.sleep(0.08)
@@ -30,26 +27,27 @@ def fase1():
     k_w(0.08)
     time.sleep(0.2)
     k_s(0.15)
-
-    # +x=-
     time.sleep(1)
     k_w(.3)
     time.sleep(.25)
     k_s(.25)
     time.sleep(.3)
     k_w(.3)
-    # ---
+    time.sleep(1)
+    k_space(0)
+    print("Fim da 'fase1'")
 
 def fase2():
-    # compra item
-    time.sleep(2.5)
+    '''compra itens'''
+    time.sleep(.5)
     k_space(0)
-    time.sleep(.1)
-    k_d(0)
-    time.sleep(.1)
-    k_d(0)
-    time.sleep(.1)
-    k_d(0)
+    time.sleep(.2)
+    k_space(0)
+    x = 0
+    while x < 3:
+        time.sleep(.1)
+        k_d(0)
+        x += 1
     x = 0
     while x < 4:
         time.sleep(.1)
@@ -61,16 +59,17 @@ def fase2():
         k_space(0)
         x += 1
     x = 0
-    # =====
+    '''/compra itens'''
 
-    # Segunda fase
+    '''segunda fase'''
     while x < 40:
         time.sleep(.1)
         k_w(0)
         x += 1
     x = 0
+    '''/segunda fase'''
 
-    #compra itens
+    '''compra itens'''
     while x < 4:
         time.sleep(.2)
         k_space(0)
@@ -80,3 +79,9 @@ def fase2():
     k_space(0)
     time.sleep(1)
     k_space(0)
+    '''/compra itens'''
+    print("Fim da 'fase2'")
+
+def fase3():
+    time.sleep(.2)
+    print("Fim da 'fase3'")
